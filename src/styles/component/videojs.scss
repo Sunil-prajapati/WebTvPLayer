@@ -1,0 +1,16 @@
+.vjs-backward-button {
+    /* Customize the appearance of the backward button */
+    /* Example styles */
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .hover-backward:hover{
+    background-color: #6fb04e;
+  }
+  .backward-icon{
+    transform: rotate(180deg);
+  }

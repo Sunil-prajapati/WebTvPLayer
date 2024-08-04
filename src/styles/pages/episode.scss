@@ -1,0 +1,36 @@
+@import "../variable.scss";
+
+.episode-btn {
+  width: 347.6px;
+  height: 88px;
+  background: rgba(255, 145, 145, 0.2);
+  border: 1.72008px solid $gray;
+  border-radius: 15px;
+}
+.episode-btn:hover{
+  border-color: $white;
+}
+.episode-btn-text {
+  line-height: 46px;
+}
+.series-video-container {
+  width: 620px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 860px) {
+  .episode-btn {
+    width: 30%;
+    height: 46px;
+    border: 0.905648px solid #7b7b7b;
+    border-radius: 7.89773px;
+  }
+  .episode-btn-text {
+    line-height: 24px;
+  }
+  .series-video-container {
+    width: auto;
+  }
+}

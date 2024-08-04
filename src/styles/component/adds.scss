@@ -1,0 +1,19 @@
+
+.login_add{
+    width:464px;
+    height:280px
+}
+.horizontal_add{
+    width:728px;
+    height: 90px
+}
+
+@media (max-width: 860px) {
+    .horizontal_add{
+        width:380px;
+        height: 60px;
+    }
+    .login_add{
+        width:264px;
+    }
+}

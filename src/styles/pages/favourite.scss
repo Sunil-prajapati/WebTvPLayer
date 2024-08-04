@@ -1,0 +1,14 @@
+.fav-btn {
+  background: rgba(255, 145, 145, 0.2);
+  width: 250.66px;
+  display: flex;
+  justify-content: center;
+  border: 1.57193px solid #7B7B7B;
+  border-radius: 31.4387px; 
+}
+
+@media (max-width: 860px) {
+  .fav-btn {
+    width: 130.66px;
+  }
+}

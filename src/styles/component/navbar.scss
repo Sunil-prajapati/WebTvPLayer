@@ -1,0 +1,22 @@
+.navbar-search-icon{
+    width:32px;
+    height: 32px;
+}
+.navbar-options-icon{
+    width:13px;
+    height: 32px;
+}
+.search-cross-icon{
+    width:24px;
+    margin-left:-12%
+}
+@media (max-width: 860px) {
+    .navbar-search-icon{
+        width:28px;
+        height: 28px;
+    }
+    .navbar-options-icon{
+        width:6px;
+        height: 29px;
+    }
+}

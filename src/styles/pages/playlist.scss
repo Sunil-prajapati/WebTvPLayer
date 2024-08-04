@@ -1,0 +1,36 @@
+@import "../variable.scss";
+
+.profile-details-container {
+  width: 366px;
+}
+.add-circle-icon {
+  width: 42px;
+  height: 39px;
+}
+.logout-container {
+  background: $gray100;
+  width: 60px;
+}
+.logout-text {
+  font-weight: 700;
+  font-size: 7.35631px;
+  line-height: 9px;
+  color: $white;
+}
+.playlist-add-container {
+  left: 25%;
+}
+
+@media (max-width: 860px) {
+  .profile-details-container {
+    width: 222px;
+  }
+  .add-circle-icon {
+    width: 23px;
+    height: 23px;
+  }
+  .profile-icon {
+    width: 63px;
+    height: 63px;
+  }
+}

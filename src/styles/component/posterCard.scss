@@ -1,0 +1,28 @@
+.poster-card-container {
+  border: 3.65625px solid #7b7b7b;
+  border-radius: 24.375px;
+  width: 252.28px;
+  height: 318.09px;
+}
+.poster-card{
+  width: 252.28px;
+  height: 311.09px;
+  object-fit: cover;
+  border-radius: 24.375px;
+}
+
+@media (max-width: 860px) {
+  .poster-card-container {
+    border: 2.18625px solid #7b7b7b;
+    border-radius: 14.375px;
+    width: 150.42px;
+    height: 189.66px;
+  }
+  .poster-card{
+    width: 150.42px;
+    height: 185.66px;
+    object-fit: cover;
+    border-radius: 14.375px;
+
+  }
+}

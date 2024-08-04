@@ -1,0 +1,20 @@
+.option-container {
+  border-radius: 10px;
+  border: 3.861px solid #7b7b7b;
+  background: rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+}
+
+.login-type-container{
+  width:96%
+}
+
+.file-icon{
+  width:119px
+}
+
+@media (max-width: 932px) {
+  .file-icon{
+    width:55px
+  }
+}

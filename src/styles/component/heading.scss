@@ -1,0 +1,14 @@
+@import "../variable.scss";
+
+.movie-info-container {
+  background: rgba(255, 145, 145, 0.2);
+  border: 1.13381px solid #7b7b7b;
+  border-radius: 22.6762px;
+}
+
+@media (max-width: 860px) {
+  .movie-info-container {
+    border: 0.68px solid #7b7b7b;
+    border-radius: 12.6762px;
+  }
+}

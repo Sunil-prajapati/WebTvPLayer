@@ -1,0 +1,14 @@
+.link-btn {
+  width: 200px;
+}
+.blink-team {
+  font-size: 34px;
+  color: #37ad00;
+  font-weight: 800;
+}
+
+@media (max-width: 860px) {
+  .link-btn {
+    width: 150px;
+  }
+}

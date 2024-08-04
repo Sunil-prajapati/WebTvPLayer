@@ -1,0 +1,14 @@
+@import "../variable.scss";
+
+
+.menu-drop-down-container{
+    border-radius: 8px;
+    border: 1.5px solid $gray;
+    background: rgba(255, 255, 255, 0.45);
+    min-width: 200px;
+    right: 0;
+}
+.drop-down-icon{
+    width:18px;
+    height: 18px;
+}

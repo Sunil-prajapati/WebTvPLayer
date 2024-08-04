@@ -1,0 +1,52 @@
+@import "../variable.scss";
+
+.movies-series-card-container {
+  width: 211px;
+  height: 171px;
+  border: 3px solid $gray;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.movies-series-card-container:hover .movies-image{
+  transform: scale(1.1);
+  transition: ease-in-out linear;
+}
+.movies-image-container {
+  width: 122px;
+  height: 171px;
+}
+.movies-image {
+  height: 165px;
+  border-radius: 19.67px;
+}
+.heart-icon {
+  width: 45px;
+  height: 45px;
+}
+.movies-name-container {
+  width: 72px;
+  max-height: 50%;
+}
+
+@media (max-width: 860px) {
+  .movies-image {
+    height: 114px;
+    border-radius: 13.669px;
+  }
+  .heart-icon {
+    width: 25px;
+    height: 22px;
+  }
+  .movies-name-container {
+    width: 69px;
+    max-height: 55%;
+
+  }
+  .movies-series-card-container {
+    width: 146px;
+    height: 118px;
+    border: 2.08475px solid $gray;
+    border-radius: 13.8983px;
+  }
+}

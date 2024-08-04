@@ -1,0 +1,61 @@
+@import "../variable.scss";
+
+.login-container {
+  width: 796px;
+  border: 0.768px solid $gray;
+  background: rgba(255, 255, 255, 0.15);
+}
+.label-container {
+  width: 228px;
+  height: 64px;
+}
+
+.password-eye-container {
+  height: 47px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  border: 1px solid $gray;
+  color: $white;
+  width: 81px;
+  margin-right: 80px;
+}
+.eye-icon {
+  width: 49px;
+  height: 34px;
+}
+.add-user-btn-icon {
+  width: 23.09px;
+  height: 23.09px;
+}
+.login-btn-container {
+  padding: 0 6% 0 6%;
+}
+
+@media (max-width: 860px) {
+  .login-container {
+    width: auto;
+  }
+  .login-container {
+    width: auto;
+  }
+  .label-container {
+    width: 140px;
+    height: 32px;
+  }
+  .password-eye-container {
+    margin-right: 4px;
+    height: 23px;
+    width: 41px;
+    border-radius: 8px;
+  }
+  .add-user-btn-icon {
+    display: none;
+  }
+  .eye-icon {
+    width: 24px;
+    height: 16px;
+  }
+  .login-btn-container {
+    padding: 0 0.5% 0 0.5%;
+  }
+}

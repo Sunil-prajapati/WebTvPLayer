@@ -1,0 +1,151 @@
+@import "../variable.scss";
+
+.secondary-btn-icon-container {
+  border-radius: 46px;
+  z-index: 1;
+}
+.secondary-btn-text-container {
+  width: 234.6px;
+  height: 69px;
+  border-radius: 23px;
+  border: 1.5px solid $gray;
+  background: rgba(0, 0, 0, 0.2);
+  left: 100px;
+}
+
+.tertiary-btn-icon-container {
+  border-radius: 46px;
+}
+
+.tertiary-btn-text-container {
+  width: 195.5px;
+  height: 46px;
+  border-radius: 17px;
+  border: 1.5px solid $gray;
+  background: rgba(0, 0, 0, 0.2);
+  left: 85px;
+}
+.tertiary-btn-container:hover .tertiary-icon {
+  transform: scale(1.05);
+  transition: ease-in-out linear;
+}
+
+.category-btn-container {
+  width: 377px;
+  border: 1.70833px solid $gray;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  .category-btn {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 3.2px solid $gray;
+    color: $white;
+  }
+  .category-name {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33.72px;
+  }
+}
+.category-btn-container:hover {
+  border: 1.70833px solid $white;
+}
+
+.channel-list-btn-active {
+  background-color: rgba(203, 1, 1, 0.5);
+  border-radius: 22.88px;
+  border: 3.42px solid $gray;
+  .channel-list-btn-content {
+    padding: 2px 0px;
+    .channel-btn-logo {
+      width: 79px;
+      height: 58px;
+      object-fit: contain;
+    }
+  }
+}
+
+.channel-list-btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 22.88px;
+  border: 3.42px solid $gray;
+  .channel-list-btn-content {
+    padding: 2px 0px;
+    .channel-btn-logo {
+      width: 79px;
+      height: 58px;
+      object-fit: contain;
+    }
+  }
+}
+.channel-list-btn-container:hover {
+  border: 3.42px solid $white;
+}
+.channel-btn-heart {
+  width: 51;
+  height: 51px;
+}
+
+.normal-button {
+  border: 2.4375px solid $gray;
+  border-radius: 12.1875px;
+}
+.add-user-btn-container {
+  height: 50px;
+}
+
+.normal-button:hover {
+  border-color: $white;
+}
+@media (max-width: 860px) {
+  .add-user-btn-container {
+    height: 35px;
+  }
+  .channel-list-btn {
+    width: auto;
+    border-radius: 13.88px;
+    .channel-list-btn-content {
+      padding: 1px 0px;
+      .channel-btn-logo {
+        width: 38px;
+        height: 36px;
+      }
+    }
+  }
+  .channel-list-btn-active {
+    width: auto;
+    border-radius: 13.88px;
+    .channel-list-btn-content {
+      padding: 1px 0px;
+      .channel-btn-logo {
+        width: 38px;
+        height: 36px;
+      }
+    }
+  }
+  .channel-btn-heart {
+    width: 32;
+    height: 32px;
+  }
+  .secondary-btn-text-container {
+    width: 142px;
+    height: 37px;
+    left: 26px;
+  }
+  .tertiary-btn-text-container {
+    left: 20px;
+    width: 108.5px;
+    height: 25px;
+  }
+  .category-btn-container {
+    width: 30%;
+    .category-name {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 21px;
+    }
+    .category-id {
+      font-size: 9px;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "../variable.scss";
+
+.simple-input {
+  width: 652.75px;
+  height: 78.65px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 3.93225px solid $darkRed;
+  border-radius: 13.1075px;
+  font-size: 32.7688px;
+  line-height: 38px;
+  padding-left: 24px;
+}
+
+.simple-input::-webkit-input-placeholder {
+  /* Edge */
+  color: $white;
+  font-size: 32.7688px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+}
+
+.simple-input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $white;
+  font-size: 32.7688px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+}
+
+.simple-input::placeholder {
+  color: $white;
+  font-size: 32.7688px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+}

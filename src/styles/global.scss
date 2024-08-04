@@ -1,0 +1,79 @@
+@import "variable.scss";
+
+body {
+  background-size: cover;
+  border: 1px solid #000;
+  background: linear-gradient(90deg, #000 26.74%, #2D3436 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100dvh;
+}
+
+.heading-text {
+  font-size: 34.9px;
+  line-height: 40.9px;
+  font-weight: bold;
+}
+
+.input-field {
+  height: 47px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  border: 1px solid $gray;
+  width: 100%;
+  color: $white;
+}
+.search-input-field{
+  background-color: rgba(0, 0, 0, 0.2);
+  color: $white;
+}
+.global-border {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1.14844px solid #7b7b7b;
+  border-radius: 22.9688px;
+}
+.unlock-bg{
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  border: 5.075px solid #7B7B7B;
+  width:55%;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color:$inputGray;
+}
+
+:-moz-placeholder {
+  text-align: center;
+  color:$inputGray;
+}
+.w-fit{
+  width: fit-content;
+}
+
+@media (max-width: 860px) {
+  .app-container {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100svh;
+    height: 100vw;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+  }
+  .heading-text {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+  }
+  .input-field {
+    height: 23px;
+    border-radius: 8px;
+  }
+  .global-border {
+    background: rgba(0, 0, 0, 0.2);
+    border: 0.6844px solid #7b7b7b;
+    border-radius: 13.9688px;
+  }
+}

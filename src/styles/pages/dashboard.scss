@@ -1,0 +1,42 @@
+@import "../variable.scss";
+
+.main-container {
+  width: 520px;
+  border: 4.65px solid $gray;
+  border-radius: 58.17px;
+  background: rgba(255, 255, 255, 0.15);
+}
+.settings-switch-container {
+  width: 387.55px;
+  border: 4.65px solid $gray;
+  border-radius: 58.17px;
+  background: rgba(255, 255, 255, 0.15);
+}
+.secondary-btn-icon {
+  width: 65px;
+  height: 65px;
+}
+.tertiary-btn-icon {
+  width: 53px;
+  height: 52px;
+}
+
+@media (max-width: 860px) {
+  .settings-switch-container {
+    width: 194px;
+    border-radius: 45.17px;
+    height: 248px;
+  }
+  .main-container {
+    width: 286px;
+  }
+
+  .secondary-btn-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .tertiary-btn-icon {
+    width: 18px;
+    height: 22px;
+  }
+}

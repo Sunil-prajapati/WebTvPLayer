@@ -1,0 +1,33 @@
+@import "../variable.scss";
+
+select {
+    width: 200px;
+    height: 30px;
+    border: 2.4375px solid $gray;;
+    background: rgba(132, 0, 0, 0.75);
+    color: $white; 
+    border-radius: 16.9014px;
+    height: 63px;  
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    padding-left:40px;
+    -webkit-appearance: none;
+    -moz-appearance:none ;
+    appearance: none;
+}
+
+@media (max-width: 860px) {
+    select {
+        width: 123px;
+        border: 1.77977px solid $gray;
+        background: rgba(132, 0, 0, 0.75);
+        color: $white;
+        border-radius: 8.9014px;
+        height: 42px;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        padding-left: 25px;
+    }
+}
+ 
+

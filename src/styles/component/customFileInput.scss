@@ -1,0 +1,32 @@
+@import "../variable.scss";
+
+.custom-file-input-container {
+  position: relative;
+  width: 194px; /* Set a width according to your design */
+}
+
+.custom-file-label {
+  display: block;
+  padding: 10px;
+  border-radius: 9.652px;
+  border: 0.965px solid #7b7b7b;
+  background: rgba(25, 129, 251, 0.2); /* Set your desired background color */
+  color: $white;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  width: 194px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Hide the default file input */
+.custom-file-label input {
+  display: none;
+}
+@media (max-width: 860px) {
+  .custom-file-label {
+    padding: 6px;
+    width: 150px;
+  }
+}

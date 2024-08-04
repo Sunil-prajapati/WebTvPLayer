@@ -1,0 +1,32 @@
+@import "../variable.scss";
+
+.child-lock-container {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1.22927px solid $gray;
+  border-radius: 12.2927px;
+}
+.category-btn {
+  width: 317.15px;
+  height: 79.9px;
+  border: 1.22927px solid $gray;
+  border-radius: 12.2927px;
+}
+.categories-list {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1.22927px solid $gray;
+  border-radius: 12.2927px;
+  height: 80px;
+}
+.lock-icon {
+  width: 30px;
+}
+.input-field-width {
+  width: 100% !important;
+}
+.update-Password-btn {
+  background: rgba(132, 0, 0, 0.75);
+  border: 2.41463px solid #7b7b7b;
+  border-radius: 12.0732px;
+  width: 300px;
+  height: 74px;
+}

@@ -1,0 +1,49 @@
+@import "../variable.scss";
+
+.main-button:hover .main-btn-icon {
+  transform: scale(1.05);
+  transition: ease-in-out linear;
+}
+
+.button-icon-container {
+  border-top-right-radius: 46px;
+  border-top-left-radius: 46px;
+  width: 207px;
+  min-height: 116.5px;
+}
+.button-text-container {
+  width: 200px;
+  border-bottom-left-radius: 46px;
+  border-bottom-right-radius: 46px;
+  border: 2.3px solid $black;
+  border-top: none;
+}
+
+.main-btn-icon {
+  width: 90px;
+  height: 90px;
+}
+.secondary-btn-container:hover .secondary-btn-icon{
+  transform: scale(1.05);
+  transition: ease-in-out linear;
+}
+
+@media (max-width: 860px) {
+  .button-icon-container {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 118px;
+    min-height: 63px;
+  }
+  .button-text-container {
+    width: 110px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 2.3px solid #000000;
+    border-top: none;
+  }
+  .main-btn-icon {
+    width: 46px;
+    height: 42px;
+  }
+}
