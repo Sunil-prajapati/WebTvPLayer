@@ -44,7 +44,7 @@ export default function ChannelButton({
         <Heart
           fill={
             data?.isFavourite ||
-            favouriteClickedStreamId.includes(data?.stream_id)
+              favouriteClickedStreamId?.includes(data?.stream_id)
               ? COLORS.RED
               : COLORS.WHITE
           }
